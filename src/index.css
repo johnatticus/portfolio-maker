@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(../src/img/pinkclouds.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 code {
@@ -13,7 +18,7 @@ code {
 }
 
 .App {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 100vw;
   height: 100vh;
   display: flex;
